@@ -1,7 +1,7 @@
 **Practicum 2: Predicting daily stock market movement with machine learning**
 
 Timeline:
-- Week 1 – Finalize project details
+-[x] Week 1 – Finalize project details
 - Week 2 – Obtain & prepare data
 - Week 3 – EDA & Visualization 
 - Weeks 4, 5 – Testing of ML algorithms
