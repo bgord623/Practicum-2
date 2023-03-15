@@ -1,5 +1,5 @@
 # Practicum 2
-Title:**Predicting daily stock market movement with machine learning**
+Title: **Predicting daily stock market movement with machine learning**
 
 - [x] Week 1 – [Project details](#project-details)
 - Week 2 – Obtain & prepare data
