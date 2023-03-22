@@ -2,7 +2,7 @@
 Title: **Predicting daily stock market movement with machine learning**
 
 - [x] Week 1 – [Project details](#project-details)
-- Week 2 – Obtain & prepare data
+- [x] Week 2 – Obtain & prepare data
 - Week 3 – EDA & Visualization 
 - Weeks 4, 5 – Testing of ML algorithms
 - Week 6 – Back testing & analysis
