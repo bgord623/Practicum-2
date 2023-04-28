@@ -2,11 +2,11 @@
 Title: **Predicting daily stock market movement with machine learning**
 
 **Table of Contents**
-1 [Overview]
-2 [Scoring] 
-3 [Data] 
-4 [Exploratory data analysis and visualization] 
-5 [Modeling of investment strategies] 
+1 [Overview] (#overview)
+2 [Scoring] (#scoring)
+3 [Data]
+4 [Exploratory data analysis and visualization]
+5 [Modeling of investment strategies]
 6 [Evaluation]
 
 # Overview
