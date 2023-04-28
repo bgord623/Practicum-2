@@ -9,14 +9,14 @@
 5. Modeling of investment strategies
 6. Evaluation
 
-# Overview
+**Overview**
 The purpose of this project is to create a daily stock direction prediction tool. I’ll be working with Tesla (TSLA) stock market data but ideally the techniques can be applied broadly. Investment strategies focused on classification, including machine learning algorithms, will make buy (1) and sell (0) predictions of the stock before the trading day begins. Specifically, a buy (1) prediction indicates the sign of the return (i.e., daily percent change) will be positive for the predicted day, while the sell (0) prediction indicates the sign of the return will be negative. The presentation covers the final notebook and detailed notebooks are located in weekly folders.
 
-# Scoring 
+**Scoring **
 Scoring focused on financial performance and accuracy score during the test data timeframe (1/3/23 – 4/19/23).
 - Financial performance reflects the difference in percentage points between the TSLA stock performance and strategy performance
 - Accuracy score is the number of correct predictions divided by the number of total predictions
-# Data
+**Data**
 Stock data was obtained with the yfinance library, which utilizes the Yahoo Finance API and Pandas to allow one to easily download stock data to a DataFrame:
 ![image](https://user-images.githubusercontent.com/102693978/235254630-f0a92858-ccfa-4e68-8e0b-1669e4bf9618.png)
 Data downloaded with yfinance contains no missing values but frequently calculations to the data create missing values, such as adding price lags and calculating moving averages. These null values always occur at the head-end and are least important for the purposes of this project, and thus deleted. <br> I wanted to start with simple techniques as well as a simple dataset, so only the closing price (‘Adj Close’) was retained. Feature engineering began with creating a daily ‘return’ (% change) and creating ‘lags’ of those returns in an attempt to create a pattern leading to the sign of the return:
