@@ -1,5 +1,5 @@
 # Practicum 2
-Title: **Predicting daily stock market movement with machine learning**
+**Predicting daily stock market movement with machine learning**
 
 **Table of Contents**
 1. Overview
