@@ -56,7 +56,7 @@ After reviewing modeling results, I adjusted the approach to the problem by addi
 
 **Evaluation**
 
-The full results are shown in the table below. As the models increased in complexity (deep learning/revised approach), overfitting was apparent and financial performance on the test data exceeded only the momentum strategy. The revised approach provided the highest accuracy scores and the MACD strategy had the top overall financial performance. 
+The full results are shown in the table below. As the models increased in complexity (deep learning/revised approach), overfitting was apparent and financial performance on the test data was lowest among ML techniques. The revised approach provided the highest accuracy scores and the MACD strategy had the top overall financial performance. 
 
 ![image](https://user-images.githubusercontent.com/102693978/235255264-21bdbf69-2e13-4315-9256-a358832f60ab.png)
 
