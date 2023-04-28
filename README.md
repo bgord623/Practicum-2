@@ -1,12 +1,13 @@
 # Practicum 2
 Title: **Predicting daily stock market movement with machine learning**
 
-- [Overview](#overview)
-- [Scoring] (#scoring)
-- [Data] (#data)
-- [Exploratory data analysis and visualization] (#edaviz)
-- [Modeling of investment strategies] (#modeling)
-- [Evaluation] (#evaluation)
+**Table of Contents**
+1 [Overview]
+2 [Scoring] 
+3 [Data] 
+4 [Exploratory data analysis and visualization] 
+5 [Modeling of investment strategies] 
+6 [Evaluation]
 
 # Overview
 The purpose of this project is to create a daily stock direction prediction tool. I’ll be working with Tesla (TSLA) stock market data but ideally the techniques can be applied broadly. Investment strategies focused on classification, including machine learning algorithms, will make buy (1) and sell (0) predictions of the stock before the trading day begins. Specifically, a buy (1) prediction indicates the sign of the return (i.e., daily percent change) will be positive for the predicted day, while the sell (0) prediction indicates the sign of the return will be negative. The presentation covers the final notebook and detailed notebooks are located in weekly folders.
