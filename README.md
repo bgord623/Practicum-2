@@ -16,7 +16,7 @@ The purpose of this project is to create a daily stock direction prediction tool
 
 **Scoring**
 
-Scoring focused on financial performance and accuracy score during the test data timeframe (1/3/23 – 4/19/23).
+Scoring is focused on financial performance and accuracy score during the test data timeframe (1/3/23 – 4/19/23).
 - Financial performance reflects the difference in percentage points between the TSLA stock performance and strategy performance
 - Accuracy score is the number of correct predictions divided by the number of total predictions
 
@@ -33,9 +33,11 @@ Data downloaded with yfinance contains no missing values but frequently calculat
 **Exploratory data analysis and visualization**
 
 Various market indicator data was explored including US Treasury data and Financial Industry Regulatory Authority (FINRA) data, but a comparison with TSLA stock did not reveal useful insight. <br> Several market indicators were also explored including volatility, relative strength index, Bollinger bands, moving average convergence divergence (MACD), and candlesticks. While many of those showed promise, the MACD was easiest to understand and incorporate during later stages.
+
 ![image](https://user-images.githubusercontent.com/102693978/235254799-83be5621-fbec-44d7-83ea-963824dfd7d4.png)
 
 **Modeling of investment strategies**
+
 Investment strategies modeled include:
 - Indicator Strategies
   - MACD
@@ -51,7 +53,11 @@ After reviewing modeling results, I adjusted the approach to the problem by addi
   - Rolling daily maximum price
   - MACD buy/sell signal
 - AdaBoost() classification algorithm
+- 
 **Evaluation**
+
 The full results are shown in the table below. As the models increased in complexity (deep learning/revised approach), overfitting was apparent and financial performance on the test data exceeded only the momentum strategy. The revised approach provided the highest accuracy scores and the MACD strategy had the top overall financial performance. 
+
 ![image](https://user-images.githubusercontent.com/102693978/235255264-21bdbf69-2e13-4315-9256-a358832f60ab.png)
+
 Regarding deployment, I believe much more analysis & insight is needed before any of these models can be relied upon for consistent positive returns.
