@@ -53,7 +53,7 @@ After reviewing modeling results, I adjusted the approach to the problem by addi
   - Rolling daily maximum price
   - MACD buy/sell signal
 - AdaBoost() classification algorithm
-- 
+
 **Evaluation**
 
 The full results are shown in the table below. As the models increased in complexity (deep learning/revised approach), overfitting was apparent and financial performance on the test data exceeded only the momentum strategy. The revised approach provided the highest accuracy scores and the MACD strategy had the top overall financial performance. 
