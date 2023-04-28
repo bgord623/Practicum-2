@@ -4,7 +4,7 @@ Title: **Predicting daily stock market movement with machine learning**
 - [Overview](#overview)
 - [Scoring] (#scoring)
 - [Data] (#data)
-- [Exploratory data analysis & visualization] (#edaviz)
+- [Exploratory data analysis and visualization] (#edaviz)
 - [Modeling of investment strategies] (#modeling)
 - [Evaluation] (#evaluation)
 
@@ -20,7 +20,7 @@ Stock data was obtained with the yfinance library, which utilizes the Yahoo Fina
 ![image](https://user-images.githubusercontent.com/102693978/235254630-f0a92858-ccfa-4e68-8e0b-1669e4bf9618.png)
 Data downloaded with yfinance contains no missing values but frequently calculations to the data create missing values, such as adding price lags and calculating moving averages. These null values always occur at the head-end and are least important for the purposes of this project, and thus deleted. <br> I wanted to start with simple techniques as well as a simple dataset, so only the closing price (‘Adj Close’) was retained. Feature engineering began with creating a daily ‘return’ (% change) and creating ‘lags’ of those returns in an attempt to create a pattern leading to the sign of the return:
 ![image](https://user-images.githubusercontent.com/102693978/235254697-662d6330-300b-4ec1-bee2-3b2cf35750be.png)
-# Exploratory data analysis (EDA) & visualization
+# Exploratory data analysis and visualization
 Various market indicator data was explored including US Treasury data and Financial Industry Regulatory Authority (FINRA) data, but a comparison with TSLA stock did not reveal useful insight. <br> Several market indicators were also explored including volatility, relative strength index, Bollinger bands, moving average convergence divergence (MACD), and candlesticks. While many of those showed promise, the MACD was easiest to understand and incorporate during later stages.
 ![image](https://user-images.githubusercontent.com/102693978/235254799-83be5621-fbec-44d7-83ea-963824dfd7d4.png)
 # Modeling of investment strategies
